@@ -260,12 +260,15 @@ input {
     width: 100%;
     font-size: 14px;
     font-family: inherit;
+   border-bottom: 2px solid #26d07c;
 }
-
+input:hover{
+    border-bottom :2px solid fuchsia;
+}
 .input-group {
     position: relative;
     margin-bottom: 30px;
-    border-bottom: 2px solid #ccc;
+   /* border-bottom: 2px solid #ccc;*/
 }
 
 .input-icon {
@@ -432,4 +435,17 @@ input {
         padding-top: 40px;
         padding-bottom: 40px;
     }
+}
+select{
+    background-color: #26d07c;
+    border: 6px solid transparent;
+    color: #fff;
+
+}
+.input-group .inrow{
+    display: flex;
+    flex-direction: row;
+}
+.btn .btn--radius {
+    background-color: fuchsia;
 }
